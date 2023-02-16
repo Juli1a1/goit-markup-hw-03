@@ -35,13 +35,36 @@ margin: 0;
 padding: 0;
 }
 
+/* HERO */
+.hero-container {
+    padding-top: 188px;
+    padding-bottom: 204px;
+}
+
+.hero-title {
+    margin-bottom: 48px;
+    color: var(--color-button-title);
+    font-size: 56px;
+    line-height: 1.071;
+    letter-spacing: 0.02em;
+
+}
+
+.hero-button {
+    background: var(--color-primary);
+    padding-bottom: 204px;
+    padding-top: 188px;
+}
+
+/* SECTION */
 .section {
 padding-bottom: 120px;
 }
-.hero-container{
-padding-top: 188px;
-padding-bottom: 204px;
+
+.section1 {
+    display: none;
 }
+
 
 .container {
 width: 100%;
@@ -59,7 +82,7 @@ gap: 24px;
 padding: 12px 24px;
 }
 
-
+/* HEADER */
 
 .header-container {
 display: flex;
@@ -113,6 +136,8 @@ color: var(--color-brand);
 color: var(--color-brand);
 }
 
+/* BUTTON */ 
+
 .button { 
 padding: 16px 32px;
 color: var(--color-button-title);
@@ -132,6 +157,7 @@ background:var(--color-brand);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+/* LOGO */
 .logo-first {
 color: var(--color-brand-second);
 }
@@ -158,24 +184,8 @@ font-weight: 800;
 color: var(--color-logo-footer);
 }
 
-.hero-title {
-margin-bottom: 48px;
-color: var(--color-button-title);
-font-size: 56px;
-line-height: 1.071;
-letter-spacing: 0.02em;
 
-}
-
-.hero-button {
-background: var(--color-primary);
-padding-bottom: 204px;
-padding-top: 188px;
-}
-
-.section1 {
-display: none;
-} 
+/* ІНШЕ */
 
 .under-title {
 padding-top: 120px;
@@ -200,6 +210,7 @@ font-size: 36px;
 line-height: 1.11;
 color:var(--color-primary);
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 .colega {
@@ -208,13 +219,17 @@ line-height: 1.2;
 color: var(--color-primary);
 font-weight: 500;
 letter-spacing: 0.02em;
+text-align: center;
+margin-top: 32px;
 }
+
 
 .card-profession1 {
 color: var(--color-secondary);
 font-size:20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 .card-profession2{
@@ -222,6 +237,7 @@ color: var(--color-secondary);
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 .card-profession3{
@@ -229,6 +245,7 @@ color: var(--color-secondary);
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 .card-profession4{
@@ -236,6 +253,7 @@ color: var(--color-secondary);
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 .name-section-team {
@@ -244,6 +262,7 @@ color: var(--color-primary);
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 .footer-text {
@@ -268,7 +287,7 @@ margin: 0 auto;
 padding: 0 15px;
 }
 
-
+/* BUTTON */
 
 .button-portfolio {
 padding-top: 96px;
@@ -416,6 +435,12 @@ font-size: 16px;
 line-height: 1.5;
 }
 
+.button-options{
+display: flex;
+justify-content: center;
+}
+
+
  .section-port {
 display: none;
  }
@@ -442,6 +467,15 @@ font-family: 'Roboto',sans-serif;
 padding-bottom: 152px;
 }
 
+.feauture {
+display: flex;
+margin-top: 120px;
+gap: 24px;
+}
+.img-webstudio {
+display: flex;
+gap: 24px;
+}
 
 .cards {
 display: flex;
@@ -452,4 +486,15 @@ flex-wrap: wrap;
 
 .cards-item{
 flex-basis: calc((100%-48px)/9);
+}
+.card-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+.job {
+display: flex;
+gap: 24px;
 }
