@@ -94,10 +94,10 @@ padding: 12px 24px;
 /* HEADER */
 
 .header-container {
-display: flex;
-align-items: center;
-gap: 40px;
-} 
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 
 .header-nav {
@@ -108,11 +108,7 @@ gap: 76px;
 
 }
 
-.header-portfolio {
-border-bottom: 1px solid var(--color-footer-text);
-box-sizing: border-box;
-background:var(--color-button-title)
-}
+
 
 .header-menu {
 display: flex;
@@ -255,7 +251,7 @@ color: var(--color-primary);
 font-weight: 500;
 letter-spacing: 0.02em;
 text-align: center;
-
+margin-bottom: 8px;
 }
 
 
@@ -293,8 +289,8 @@ padding-top: 16px;
 
 .footer{
 background:var(--color-primary);
-margin-top: 100px;
-margin-bottom: 100px;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 
@@ -308,7 +304,6 @@ display: flex;
 gap: 24px;
 margin: auto;
 margin-bottom: 72px;
-margin-top: 96px;
 justify-content: center;
 }
 
@@ -411,13 +406,11 @@ flex-wrap: wrap;
 
 }
 .cards-portfolio{
-border: 1px solid var(--color-footer-text);
+border: 1px solid var(--color-logo-footer);
 padding-bottom: 32px;
 padding-left: 16px;
 padding-top: 32px;
-border-right: 156px;
-border-bottom: 32px;
-border-left: 24px;
+border-top: none;
 }
 
 .cards-item{
@@ -447,3 +440,6 @@ padding-top: 120px;
 text-align: center;
 }
 
+.section-portfolio {
+padding-top: 96px;
+}
