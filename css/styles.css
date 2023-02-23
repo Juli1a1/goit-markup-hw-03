@@ -158,6 +158,7 @@ font-style: normal;
 .header {
 display: flex;
 align-items: center;
+border-bottom: 1px solid var(--color-footer-text);
 }
 /* BUTTON */ 
 
@@ -284,7 +285,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 width: 264px;
-padding-top: 16px;
+margin-top: 16px;
 }
 
 .footer{
@@ -312,22 +313,20 @@ justify-content: center;
 .button-alles {
 letter-spacing: 0.04em;
 color: var(--color-brand-second);
-    font-size: 16px;
-    line-height: 1.5;
-    cursor: pointer;
-    background: var(--color-logo-footer);
-    border: 1px solid var(--color-footer-text);
-    border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-    width: 116px;
-    height: 48px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+background: var(--color-logo-footer);
+border: 1px solid var(--color-footer-text);
+border-radius: 4px;
+font-family: 'Roboto', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 
 .button-alles:focus{
@@ -396,7 +395,11 @@ height: auto;
     height: auto;
     display: block;
 }
-
+.img-cards {
+max-width: 100%;
+display: block;
+height: auto;
+}
 
 
 .cards {
